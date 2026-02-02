@@ -13,6 +13,7 @@ public class HomeController : Controller
 
     public IActionResult SurfLessons()
     {
+        ViewData["hourlyRate"] = 75;
         return View();
     }
 
